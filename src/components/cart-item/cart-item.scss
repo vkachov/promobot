@@ -1,0 +1,30 @@
+.cart-item {
+    display: inline-flex;
+    width: 100%;
+    margin: 5px 0;
+
+    .item-name {
+        flex-grow: 1;
+    }
+
+    .item-quantity {
+        display: inline-flex;
+        margin: 0 10px;
+
+        .quantity-button {
+            cursor: pointer;
+            background: #eee;
+            width: 24px;
+            text-align: center;
+        }
+
+        .item-count {
+            text-align: center;
+            width: 40px;
+        }
+    }
+
+    .delete-item-button {
+        cursor: pointer;
+    }
+}

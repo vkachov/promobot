@@ -1,0 +1,10 @@
+.vitrine-list {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.single-item {
+    .vitrine-item {
+        flex-grow: 1;
+    }
+}

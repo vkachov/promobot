@@ -1,0 +1,28 @@
+.vitrine-item {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    margin: 5px;
+    min-width: 204px;
+    height: 200px;
+    flex-direction: column;
+    position: relative;
+
+    &:hover {
+        background: #fbfbfb;
+    }
+
+    .item-picture {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-size: cover;
+    }
+
+    .product-price {
+        text-align: right;
+    }
+}

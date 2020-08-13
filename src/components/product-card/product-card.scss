@@ -1,0 +1,71 @@
+.product-card {
+    width: 800px;
+    border: solid 1px#eee;
+    padding: 20px;
+    display: flex;
+
+    .product-name {
+        &:before {
+            display: block;
+            content: 'наименование товара';
+            text-transform: uppercase;
+            font-size: 10px;
+            color: #777;
+        }
+    }
+
+    .product-description {
+        margin-top: 40px;
+
+        &:before {
+            display: block;
+            content: 'описание товара';
+            text-transform: uppercase;
+            font-size: 10px;
+            color: #777;
+        }
+    }
+
+    .product-price {
+        min-width: 185px;
+        
+        &:before {
+            display: block;
+            content: 'цена товара';
+            text-transform: uppercase;
+            font-size: 10px;
+            color: #777;
+        }
+    }
+
+    .add-to-cart {
+        margin-top: 74px;
+        cursor: pointer;
+        background: #eee;
+        padding: 10px 10px;
+        color: #444;
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+    .product-picture {
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        margin: 0 10px;
+    }
+
+    .product-sold-out {
+        color: red;
+    }
+}
+
+.product-price {
+    &:after {
+        content: ' РУБ';
+        color: #666;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,57 @@
+// css взят из открытого примера пакета https://react-popup.elazizi.com/react-modal/
+
+.cart-trigger {
+    position: fixed;
+    bottom: 10vh;
+    left: 0;
+    width: 100px;
+    padding: 20px;
+    background: #eee;
+    box-shadow: 0 1px 4px 0 #bfbaba;
+    cursor: pointer;
+
+    &:before {
+      content: 'Корзина';  
+    }
+}
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+    position: absolute;
+    display: block;
+    line-height: 17px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+    height: 22px;
+    text-align: center;
+    width: 22px;
+}
+
+.cart-body {
+  padding: 20px;
+  font-size: 18px;
+}
